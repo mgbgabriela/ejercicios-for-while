@@ -15,8 +15,8 @@ btnEnviar.addEventListener("click", () => {
   let contador: number = 1;
   while (contador <= limite) {
     resultado = nro * contador;
-    contador = contador + 1;
     console.log(nro + "x" + contador + "=" + resultado);
+    contador = contador + 1;
   }
 });
 
